@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-weight:normal;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.naslov{
+    color:rgb(1, 101, 208);
+    font-weight:400;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-top:50px;
+}
+
+.upload-slika{
+    text-align: center;
+    margin-top:50px;
+}
+
+#prikaz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top:50px;
+    padding: 20px;
+    background-color: #89e1ed;
+    border-radius: 20px;
+}
+
+#prikaz li{
+    flex-basis:350px;
+    list-style: none;
+}
+
+ul{
+    padding-left:0 !important;
+}
+
+#prikaz img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+    box-shadow: 3px 12px 18px -1px rgb(0 0 0 / 41%);
+    transition:all 0.6s ease;
+}
+
+#prikaz img:hover{
+    box-shadow:none;
+    transform: scale(1.1);
+}
+
+
+.remove-btn{
+    border:none;
+    outline:none;
+    background-color: rgb(1, 101, 208);
+    color:#fff;
+    font-weight:500;
+    border-radius:20px;
+    transition:all 0.6s ease;
+    
+}
+
+.remove-btn:hover{
+    background-color:rgb(0, 81, 168);
+    color:rgb(182, 182, 182);
+}
+
+.remove-picture{
+    outline:none;
+    border:none;
+    background: none;
+    font-weight:500;
+    color:#fff;
+    transition:all 0.6s ease;
+    margin-left: 300px;
+}
+
+.remove-picture:hover{
+    color:rgb(182, 182, 182);
+}
